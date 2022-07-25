@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>presentacion</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div>
-        <h1>perfil: </h1>
+        <h1 class="perfil">perfil: </h1>
         <img src="img/xotic.png" alt="imagen xotic">
-        <p>Datos:</p>
+        <p class="datosydescription">Datos:</p>
             <ul square>
                     <li>Edad:22 años </li>
                  <li>Nombre:Camilo Rueda</li>
                  <li>Mail:camiloruedanqn@gmail.com</li>
              </ul>
-        <p>Descripcion:</p>
+        <p class="datosydescription" >Descripcion:</p>
         <p>persona proactiva, con facilidad de aprendizaje y predisposicion.</p>
     </div>
 
@@ -24,18 +25,18 @@
        <ul square>
         <form>
          <h2>Datos de usuario:</h2>
-            <li><label for="name">ingrese su nombre:</label>
+            <li><label for="name" id="formulario">ingrese su nombre:</label>
             <input type="text" name="nombre" id="name" placeholder="ingrese su nombre aqui"></li>
                 <br>
             <li>
-                <label for="edad">edad:</label>
+                <label for="edad" id="formulario">edad:</label>
                 <input type="number" id="edad" placeholder="edad aqui"></li>
                 <br>
             <li>
-                <label for="emails">emails</label>
-                <input type="text"  id="emails" placeholder="email aqui"></li>
+                <label for="emails" id="formulario">emails</label>
+                <input type="text"  id="emails" class="emails2" placeholder="email aqui"></li>
                 <br>    
-            <li> <label for="descripcion">descripcion</label>
+            <li> <label for="descripcion" id="formulario">descripcion</label>
             <input type="text" id="descripcion" placeholder="describete brevemente"></li>
 
 
@@ -46,6 +47,7 @@
     <div>
         <p>mas quer una prueba</p>
         <p>parte de full</p>
+       
 
 
 

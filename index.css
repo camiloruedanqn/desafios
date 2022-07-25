@@ -1,0 +1,16 @@
+
+*{
+    background-color: lightgreen;
+}
+div .perfil{
+    color: brown;
+    background-color: beige;
+}
+.datosydescription{
+    color: green;
+    background-color: aliceblue;
+}
+div #formulario{
+    color: darkorchid;
+    background-color: grey;
+}
